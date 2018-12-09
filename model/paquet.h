@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <string>
-#include "gestionnairecartes.h"
+#include <model/gestionnairecartes.h>
 
 using namespace std;
 

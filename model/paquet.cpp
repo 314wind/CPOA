@@ -1,4 +1,4 @@
-#include "paquet.h"
+#include "model/paquet.h"
 
 Paquet::Paquet(): _nom(""), _description(""), nbFoisRevise(0), nbCarte(0)
 {

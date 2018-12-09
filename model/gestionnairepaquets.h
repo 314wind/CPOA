@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "erreur.h"
+#include <model/erreur.h>
 #include "paquet.h"
 
 using namespace std;

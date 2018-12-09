@@ -1,4 +1,4 @@
-#include "erreur.h"
+#include "model/erreur.h"
 
 std::ostream & operator << (std::ostream & flux, const Erreur & e)
 {

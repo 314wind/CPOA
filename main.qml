@@ -5,7 +5,7 @@ ApplicationWindow {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Scroll")
+    title: qsTr("Application")
 
     ScrollView {
         anchors.fill: parent
@@ -14,7 +14,7 @@ ApplicationWindow {
             width: parent.width
             model: 20
             delegate: ItemDelegate {
-                text: "Item " + (index + 1)
+                text: "Paquet " + (index + 1)
                 width: parent.width
             }
         }

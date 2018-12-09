@@ -1,4 +1,4 @@
-#include "gestionnairecartes.h"
+#include "model/gestionnairecartes.h"
 
 GestionnaireCartes::GestionnaireCartes()
 {
@@ -33,7 +33,7 @@ void GestionnaireCartes::supprimer(const Carte *c)
     return cartes[index];
 }
 
-const int GestionnaireCartes::getIndexCarte(const Carte *c) const
+int GestionnaireCartes::getIndexCarte(const Carte *c) const
 {
 
     if(c == NULL) {

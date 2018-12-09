@@ -1,4 +1,4 @@
-#include "gestionnairepaquets.h"
+#include "model/gestionnairepaquets.h"
 
 gestionnairePaquets::gestionnairePaquets()
 {

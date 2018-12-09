@@ -1,4 +1,4 @@
-#include <profil.h>
+#include <model/profil.h>
 //#include <string>
 
 
@@ -51,10 +51,9 @@ gestionnairePaquets* Profil::getGestionPaquet() const
     return gestionpak;
 }
 
-const Paquet *Profil::getPaquet() const
+const Paquet *Profil::getPaquet(int i) const
 {
-    for(int i = 0; i < getNbPaquet(); i++)
-          gestionpak->getPaquet(i);
+    return gestionpak->getPaquet(i);
 }
 
 void Profil::supprimerPaquet()

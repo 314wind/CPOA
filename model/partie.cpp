@@ -1,10 +1,10 @@
-#include "partie.h"
-#include "carte.h"
-#include "erreur.h"
-#include "gestionnairecartes.h"
-#include "paquet.h"
-#include "gestionnairepaquets.h"
-#include "profil.h"
+#include "model/partie.h"
+#include "model/carte.h"
+#include "model/erreur.h"
+#include "model/gestionnairecartes.h"
+#include "model/paquet.h"
+#include "model/gestionnairepaquets.h"
+#include "model/profil.h"
 
 Partie::Partie()
 {

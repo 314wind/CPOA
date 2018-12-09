@@ -1,4 +1,4 @@
-#include "carte.h"
+#include "model/carte.h"
 
 Carte::Carte(): _front(""), _back("")
 {

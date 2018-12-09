@@ -4,9 +4,9 @@
 #include <string>
 #include <iostream>
 #include "erreur.h"
-#include "gestionnairepaquets.h"
-#include "carte.h"
-#include "paquet.h"
+#include <model/gestionnairepaquets.h>
+#include <model/carte.h>
+#include <model/paquet.h>
 
 
 using namespace std;
@@ -43,7 +43,7 @@ public:
     bool contientGestionPaquet() const;
     int getNbPaquet() const;
     gestionnairePaquets* getGestionPaquet() const;
-    const Paquet *getPaquet() const ;
+    const Paquet *getPaquet(int i) const ;
 
     bool operator ==(const Profil &p) const; // compare deux profits
     const Profil &operator = (const Profil &p);

@@ -4,8 +4,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
-#include "carte.h"
-#include "erreur.h"
+#include <model/carte.h>
+#include <model/erreur.h>
 #include <sstream>
 #include <string>
 #include <cstdlib>
@@ -29,7 +29,7 @@ public:
 
     int getNbCarte() const;// renvoi le nombre de carte
     const Carte *getCarte(const int index);
-    const int getIndexCarte(const Carte *c) const;
+    int getIndexCarte(const Carte *c) const;
     //Suppresson d'une carte
     void supprimer(const Carte *c);
 

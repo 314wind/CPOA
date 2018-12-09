@@ -6,8 +6,8 @@
 #include <string>
 #include <ctime>
 #include <stdlib.h>
-#include <paquet.h>
-#include "profil.h"
+#include <model/paquet.h>
+#include <model/profil.h>
 
 using namespace std;
 
